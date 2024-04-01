@@ -1,0 +1,76 @@
+.Container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  background-color: var(--background-color);
+}
+.Container .product {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(255, 165, 0, 0.4);
+  transition: 0.3s;
+}
+.Container .product:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 165, 0, 0.8);
+}
+.Container .product button {
+  background-color: transparent;
+  border: none;
+  color: var(--primary-text-color);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #e7e7e7;
+  border-radius: 20px;
+}
+.Container .product button:nth-child(1):hover {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+.Container .product button:nth-child(2):hover {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.Container .product img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain !important;
+}
+.Container .product h2 {
+  font-size: 20px;
+  padding: 5px 10px;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+.Container .product h4 {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  padding: 5px 10px;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+.Container .product p {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  color: var(--primary-text-color);
+}
+.Container .products .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}

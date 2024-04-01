@@ -1,0 +1,54 @@
+.Log {
+  width: 100%;
+  height: 100vh;
+  background-color: #222831;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+/* h1 {
+  background-image: url("../../images/2.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 80px;
+} */
+form input:nth-child(1),
+form input:nth-child(2),
+form input:nth-child(3),
+form input:nth-child(4),
+form input:nth-child(5) {
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  transition: 1s;
+}
+form input[value="Submit"] {
+  font-weight: bold;
+  background-color: transparent;
+  border: 4px solid rgb(255, 255, 255);
+  color: var(--primary-text-color);
+  padding: 5px 10px;
+  border-radius: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Log a {
+  color: var(--primary-text-color);
+}
+p {
+  color: red;
+  font-weight: bold;
+}

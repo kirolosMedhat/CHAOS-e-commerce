@@ -1,0 +1,17 @@
+.Container .add {
+  padding: 20px;
+  background-color: transparent;
+  color: var(--primary-text-color);
+  box-shadow: 0 2px 4px 0 rgba(255, 165, 0, 0.4);
+  transition: 1s;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.Container .add:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 165, 0, 0.8);
+  transition: 1s;
+}
